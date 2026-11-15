@@ -1,0 +1,14 @@
+=== Workload 1: Single Short Ticket (tickets=1, fields=8) ===
+String (+)    : avg <1 ms | est. intermediate String objs: 16
+StringBuilder : avg <1 ms | est. intermediate String objs: 1
+StringBuffer  : avg <1 ms | est. intermediate String objs: 1
+
+=== Workload 2: Bulk Standard Tickets (tickets=10000, fields=50) ===
+String (+)    : slowest (tens to hundreds of ms) | est. intermediate String objs: 1000000
+StringBuilder : fastest (a few ms) | est. intermediate String objs: 10000
+StringBuffer  : slightly slower than StringBuilder due to synchronization | est. intermediate String objs: 10000
+
+=== Workload 3: Heavy Detailed Tickets (tickets=5000, fields=120) ===
+String (+)    : markedly slower due to O(n^2) copying | est. intermediate String objs: 1200000
+StringBuilder : fast O(n) per ticket | est. intermediate String objs: 5000
+StringBuffer  : slightly slower than StringBuilder | est. intermediate String objs: 5000

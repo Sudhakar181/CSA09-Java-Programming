@@ -1,0 +1,2 @@
+[Eagles(9,6), Bisons(9,4), Panthers(9,4), Cobras(6,1)]
+Overflow-safe ranking: [Alpha(2147483647,0), Gamma(0,5), Beta(-10,0)]

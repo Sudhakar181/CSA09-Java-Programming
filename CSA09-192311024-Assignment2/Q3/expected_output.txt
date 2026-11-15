@@ -1,0 +1,8 @@
+--- Attendance.java (after TODO 1) ---
+Unique students: 2
+
+--- AttendanceInvestigation.java ---
+Test 1 (same ref, broken class) size: 2 (expected 2)
+Test 2 (new objs, broken class) size: 3 (bug: 3 instead of 2)
+Test 3 contains mutated student? false
+Test 3 contains old regNo?      false

@@ -1,0 +1,3 @@
+HashMap and LinkedHashMap achieve O(1) average lookup across all sizes, whereas TreeMap scales as O(log n).
+TreeMap naturally produces the code-order report without extra sorting.
+LinkedHashMap naturally produces the insertion-order report without extra tracking.
