@@ -1,0 +1,5 @@
+Pool=1 threads | Success=187 | Failed=13
+Pool=2 threads | Success=187 | Failed=13
+Pool=4 threads | Success=187 | Failed=13
+Pool=8 threads | Success=187 | Failed=13
+(All 200 files accounted for; corrupt and missing files do not stop the batch.)

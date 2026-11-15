@@ -1,0 +1,15 @@
+--- Testing input: '500' ---
+Dispensed Rs 500.0 for account ACC101
+finally: Card session closed and scanner released.
+
+--- Testing input: '-100' ---
+Caught input/validation error (multi-catch): IllegalArgumentException - Withdrawal amount must be positive: -100.0
+finally: Card session closed and scanner released.
+
+--- Testing input: '5000' ---
+Caught business error: Requested 5000.0 exceeds balance 2000.0
+finally: Card session closed and scanner released.
+
+--- Testing input: 'abc' ---
+Caught input/validation error (multi-catch): InputMismatchException - null
+finally: Card session closed and scanner released.

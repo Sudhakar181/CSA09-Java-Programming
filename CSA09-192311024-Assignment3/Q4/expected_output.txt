@@ -1,0 +1,5 @@
+Station-3 (Runnable) scanned 20 scripts on main
+After direct run(), s3.isAlive() = false
+During execution, s1.isAlive() = true
+(Stations 1-4 print in scheduler-dependent order)
+All stations finished. Total scripts scanned: 100

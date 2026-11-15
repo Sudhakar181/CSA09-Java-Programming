@@ -1,0 +1,3 @@
+Valid manual total: 2450.75
+Valid TWR total:    2450.75
+Caught expected failure in failing input: For input string: "CORRUPT_DATA"
